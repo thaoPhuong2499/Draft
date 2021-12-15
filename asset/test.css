@@ -1,10 +1,15 @@
+.topic{
+    color: hotpink;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
 body{
     background-image: url("./bot-logo.webp");
     opacity: 0.9;
     background-repeat: no-repeat;
     background-position: right top ;
-    margin-right: 200px;
-    background-attachment: fixed;
 }
 
 .Ten {
@@ -35,7 +40,28 @@ table, td,th {
 }
 
 .icon-fish {
-    color: blueviolet;
     font-size: 24px;
 }
 
+.ca{
+    color: brown;
+}
+
+.ca:hover{
+    color: burlywood;
+}
+
+.ca:active{
+    color: cadetblue;
+}
+
+.Link-fa {
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+
+.logo-itviec {
+    position: absolute;
+    z-index: -1;
+}
